@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#btn1{
+    height: 50px;
+    width: 115px;
+    transition-duration: 0.8s;
+    border-radius: 16px;
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+#btn1:hover {
+    background-color: blueviolet;
+    color: white;
+    border-color: white;
+}
+
+#btn2{
+    height: 50px;
+    width: 115px;
+    transition-duration: 0.8s;
+    border-radius: 16px;
+    background-color: white;
+    color: rgb(255, 83, 155);
+    border-color: rgb(255, 83, 155);
+}
+
+#btn2:hover {
+    background-color: rgb(255, 83, 155);
+    color: white;
+    border-color: white;
+}
+
+.images{
+    height: 220px;
+    width: 220px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#site-text{
+    text-align: center;
+    font-size: 34px;
+}
