@@ -55,3 +55,9 @@ body{
     text-align: center;
     font-size: 34px;
 }
+
+.names{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

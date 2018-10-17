@@ -9,9 +9,11 @@ btn1.addEventListener("click", function(){
       })
       .map(songs => {
         return `
+         <div class = "song-container">
          <img class = "images" src = "${songs.image}"/>
-         <div>Artist:${songs.artist}</div>
-         <div>Song Title:${songs.song}</div>
+         <div class = "names">Artist: ${songs.artist}</div>
+         <div class = "names">Song Title: ${songs.song}</div>
+         </div>
         `;
       })
       .join('');
@@ -27,9 +29,11 @@ btn2.addEventListener("click", function(){
     })
     .map(songs => {
         return `
-         <img class = "images" src = "${songs.image}"/>
-         <div>Artist:${songs.artist}</div>
-         <div>Song Title:${songs.song}</div>
+        <div class = "song-container">
+        <img class = "images" src = "${songs.image}"/>
+        <div class = "names">Artist: ${songs.artist}</div>
+        <div class = "names">Song Title: ${songs.song}</div>
+        </div>
         `;
       })
       .join('');
